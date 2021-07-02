@@ -1,6 +1,6 @@
 FROM tomcat:9.0
 
-LABEL maintainer=”deepak@softwareyoga.com”
+LABEL maintainer=”chinmayash11@gmail.com”
 
 ADD ./target/*.war /usr/local/tomcat/webapps/
 
